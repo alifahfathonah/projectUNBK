@@ -1,0 +1,60 @@
+analisis gambaran Project UNBK
+
+--periode ujian
+---input manual periode ujian 
+---edit manual periode ujian
+---hapus manual periode ujian
+
+--mata ujian sesuai dengan periode ujian
+---input mata ujian
+---edit mata ujian
+---hapus mata ujian
+
+--siswa
+---input manual siswa
+----import data siswa(exel)
+---edit manual siswa
+---hapus manual siswa
+
+--ujian
+---input manual ujian sesuai mata ujian yang telah di setting
+----input manual soal sesuai ujian yg telah di setting
+----import soal(exel)
+---edit manual ujian
+----edit manual soal
+---hapus manual ujian
+----hapus manual soal
+
+--token
+--input token manual(perkelas)
+
+--aktifkan tes
+---aktifkan perwaktu yang telah ditentukan
+---nonaktifkan tes
+
+--aktifkan nilai di client
+---aktifkan nilai di masing2 clint setelah selesai ujian
+---nonaktifkan nilai pada client
+
+--report test
+---report permata pelajaran
+---cetak hasil ujian permata pelajaran(1 rangkap)
+---cetak hasil ujian persiswa
+
+--backup data
+---periode
+---soal
+---ujian
+---siswa
+
+--hapus data
+---periode
+---soal
+---ujian
+---siswa
+
+--restore data
+---periode
+---soal
+---ujian
+---siswa
